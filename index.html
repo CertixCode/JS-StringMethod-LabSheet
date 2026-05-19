@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JS String Methods — QA Showcase</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-slate-50 text-slate-900">
+    <header class="bg-white shadow sticky top-0 z-20">
+      <div
+        class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between"
+      >
+        <h1 class="text-xl font-semibold">
+          JS String Methods — Questions & Answers
+        </h1>
+        <div class="text-sm text-slate-500">
+          Click a card to view function or output
+        </div>
+      </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-4 py-6">
+      <section class="mb-6 flex items-center justify-between">
+        <input
+          id="filter"
+          type="search"
+          placeholder="Search questions..."
+          class="w-full sm:w-1/2 px-3 py-2 border rounded shadow-sm focus:outline-none"
+        />
+      </section>
+
+      <section
+        id="qa-grid"
+        class="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
+      >
+        <!-- Cards injected by script -->
+      </section>
+    </main>
+
+    <footer class="max-w-5xl mx-auto px-4 py-6 text-sm text-slate-500">
+      Built with Tailwind CSS + custom styles. Responsive and accessible.
+    </footer>
+
+    <script src="qa.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
